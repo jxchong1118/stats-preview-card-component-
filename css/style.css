@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 300;
+  background-color: hsl(233, 47%, 7%);
+  color: #fff;
+}
+
+img{
+  max-width: 100%;
+  display: block;
+
+}
+
+
+
+/* =========
+Typography
+============*/
+h1, h2{
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+/* =========
+Layout
+============*/
+
+.container {
+  width: 90%;
+  max-width: 1150px;
+  border: 1px solid magenta;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.card-container{
+  margin: 5em auto;
+}
+
+/* card */
+.card-body-desc{
+  background-color: hsl(244, 38%, 16%);
+  padding: 4em;
+}
+
+.card-body-img{
+  padding:0;
+}
+
+.features-box{
+  display: flex;
+  justify-content: space-between;
+  margin: 5em 0 0;
+}
+
+.features-box p{
+   text-transform: uppercase: ;
+}
